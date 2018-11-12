@@ -1,0 +1,48 @@
+<html>
+  
+    <script language="javaScript" type="text/javaScript" >
+	  var mass1,mass2;
+	  var height1,height2;
+	  var val=false;
+	
+	   
+		 var name1= prompt("enter the name");
+		 document.writeln("name1: "+name1);
+     	mass1= parseInt(prompt("Enter the mass in Kg"));
+	    document.writeln("mass:"+mass1+ "kg" );
+		 height1=parseInt(prompt("Enter the height in meter"));
+	    document.writeln("height: "+height1+"m");
+		
+		
+		
+		var name2= prompt("enter the name");
+		 document.writeln("name2: "+name2);
+		mass2= parseInt(prompt("Enter the mass in Kg"));
+	    document.writeln("mass:"+mass2+ "kg" );
+	   height2=parseInt(prompt("Enter the height in meter"));
+	    document.writeln("height: "+height2+"m");
+	    var total1=mass1/(height1*height1);
+	     document.writeln("total1: "+total1+"<br>");
+		 
+	     var total2=mass2/(height2*height2);
+	     document.writeln("total2: "+total2+"<br>");
+	    
+	
+	     if(total1>total2)
+		 {document.writeln("total1 is greater");
+		  val=true;
+		 }else
+		 { document.writeln("total2 is greater");
+		 }
+		 
+     
+	    
+   
+		 
+		
+     </script>
+	<body>
+	
+ </body>
+   </html>
+   
