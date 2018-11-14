@@ -1,0 +1,104 @@
+First we need to create with project.
+
+
+src - folder
+
+ contains java code.
+
+
+package /folder in your system
+
+  com.capgemini.
+
+
+  - collection of java files
+
+---------------------
+package
+public
+class
+static
+void
+- used by language.
+
+for example
+
+Class names in java
+start with capital
+letter.
+
+HelloWorld
+-
+
+System
+-
+
+"   " -- string
+group of characters.
+
+
+--------
+class{
+ 
+ - collection of 
+      variables
+      methods
+}
+
+Datatype- 
+ information about the data
+
+variable
+container to hold the
+data
+
+compiles your code
+in compile time.
+
+Runtime - main method
+is missing.
+
+int -0
+float-??
+boolean-??
+String - null;
+
+Constructor
+constructor name
+class same only.
+
+------------------
+constructor is called
+by whom
+JVM
+
+What is object?
+holds data
+
+e1 - 1522
+   - Akash
+   -18
+
+Calculator-- sum of two
+
+void add()
+void sub()
+void div()
+void mul()
+----------------------------------------
+1) 1,2,3,4,5,6,7,8,9,10- for/while/do while/
+2)2,4,6,8,10 - even no 
+3)1,3,5,7,9, - odd
+4)sum of nos- 1+2+3+4+5..+10
+5)10,9,8,7,6,5,..1 - reverse
+
+for
+while
+---------------------------------------------
+write a program to print nos 1 to 10.
+
+10-1
+even 
+odd
+
+
