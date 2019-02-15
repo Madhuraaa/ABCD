@@ -1,0 +1,66 @@
+HTML AND CSS
+ markup laguage and 
+collection of predifined tags
+Presentation layer- UI-What a user can see
+.html -  A html document is saved with filename.html/ .htm
+
+what editor can i use?
+Notepad
+Notepad++
+
+Notes:
+<!Doctype html>
+what is the version of html we are using
+ 
+Current version ---html 5 
+
+1)what is the use of head?
+loading external css , js files 
+importing any framework
+
+2) Value	Description
+button	       Defines a clickable button (mostly used with a JavaScript to activate a script)
+checkbox	Defines a checkbox
+color	Defines a color picker
+date	Defines a date control (year, month, day (no time))
+datetime-local	Defines a date and time control (year, month, day, time (no timezone)
+email	Defines a field for an e-mail address
+file	Defines a file-select field and a "Browse" button (for file uploads)
+hidden	Defines a hidden input field
+image	Defines an image as the submit button
+month	Defines a month and year control (no timezone)
+number	Defines a field for entering a number
+password	Defines a password field
+radio	Defines a radio button
+range	Defines a range control (like a slider control)
+reset	Defines a reset button
+search	Defines a text field for entering a search string
+submit	Defines a submit button
+tel	Defines a field for entering a telephone number
+text	Default. Defines a single-line text field
+
+
+
+LocalStorage
+
+Stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser cache / Locally Stored Data
+Storage limit is the maximum amongst the three
+SessionStorage
+
+The sessionStorage object stores data only for a session, meaning that the data is stored until the browser (or tab) is closed.
+Data is never transferred to the server.
+Storage limit is larger than a cookie (at least 5MB).
+time	Defines a control for entering a time (no timezone)
+url	Defines a field for entering a URL
+week	Defines a week and year control (no timezone)
+Birthday (date and time): <input type="datetime-local" name="bdaytime">
+
+
+What is the main purpose of an interface? The answer is "Standardization". That means objects which have same type of functions should be standardized.
+ Programming example: Suppose you have developed an application which inserts, updates, deletes and searches something in database. 
+Say you have developed a "Student information system" for your college. 
+Some of the activities like capturing student credentials (Insert), searching a student profile (Search) etc.
+ Similarly suppose you have another module where you are capturing fee details for students (Insert), 
+modifying fee details for a student(update)etc. So for each case you are inserting, updating or searching.
+ To standardize these activity, in data access layer of a standard application has atleast one interface with these methods declared in it, 
+so that each class in DAO layer must have to follow those standards(in other words rules).
