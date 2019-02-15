@@ -1,0 +1,8 @@
+https://cricapi.com/api/matches?apikey=VRA0vQhoGEdC1xR3p5IByiav2SO2
+
+https://cricapi.com/api/matchCalendar?apikey=VRA0vQhoGEdC1xR3p5IByiav2SO2
+
+https://cricapi.com/api/playerFinder?apikey=VRA0vQhoGEdC1xR3p5IByiav2SO2&name=Tendulkar
+
+https://cricapi.com/api/cricket?apikey=VRA0vQhoGEdC1xR3p5IByiav2SO2
+
