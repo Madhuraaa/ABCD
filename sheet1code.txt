@@ -1,0 +1,21 @@
+PDFFolder = Range("F3").Value 'PDF Folder Location
+ExportFile = PDFFolder & "\datasource.csv"
+On Error Resume Next
+Kill (ExportFile) 'Delete Export File If it Exists
+On Error GoTo 0
+PDFApp = Shell("C:/programfiles(x86)\FoxitSoftware\FoxitReader.exe\path",vb NormalFocus)
+'On Error Resume Next
+'AppActivate (PDFApp)
+'On Error GoTo 0
+Application.Wait Now + 0.00001
+Application.SendKeys "^{e}", True
+Application.Wait Now + 0.00002
+
+Application.SendKeys "a", True
+Application.Wait Now + 0.00002
+
+Application.SendKeys "^{TAB}", True
+Application.Wait Now + 0.000001
+
+Application.SendKeys "^{a}", True
+Application.Wait Now + 0.00002
